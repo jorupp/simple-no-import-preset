@@ -7,12 +7,12 @@
 </p>
 
 <h2 align="center">simple-no-import-preset</h2>
-<pre><div align="center">npx @preset/cli apply username/C:\projects\internal\simple-no-import-preset</div></pre>
+<pre><div align="center">npx @preset/cli apply jorupp/simple-no-import-preset</div></pre>
 
 <br />
 
 <div align="center">
-  This preset was made by Jonathan Rupp.
+  This preset was made by `@jorupp`.
   <br />
   <br />
   <a href="https://preset.dev">Learn more</a>

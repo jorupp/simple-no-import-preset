@@ -1,10 +1,16 @@
 export default definePreset({
 	name: 'simple-no-import-preset',
-	options: {
-		// ...
-	},
 	handler: async() => {
-		await extractTemplates()
-		// ...
+		await editFiles({
+			files: '.gitignore',
+			operations: [
+				{
+					type: 'add-line',
+					lines: ['.env.local', '.env.*.local'],
+					position: 'append',
+					indent: true,
+				},
+			],
+		});
 	},
 })
